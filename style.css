@@ -1,0 +1,34 @@
+/* @import url("reset.css"); */
+
+:root {
+    --wall-color: #000000;
+    --main-color: #FFFFFF;
+}
+
+#gameArea {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.gameCell {
+    width: 30px;
+    height: 30px;
+}
+
+.wall {
+    background-color: var(--wall-color);
+}
+
+.hallway {
+    background-color: var(--main-color);
+}
+
+.player {
+    background-color: blue;
+    position: absolute;
+}
+
+.row {
+    display: flex;
+}
